@@ -34,8 +34,8 @@ function getFromLs(key, defaultValue) {
 	const formLoaded = getFromLs('feedback-form-state');
 	
 	try {
-		formEl.elements.email.value.trim() = formLoaded.email;
-		formEl.elements.message.value.trim() = formLoaded.message;
+		formEl.elements.email.value = formLoaded.email;
+		formEl.elements.message.value = formLoaded.message;
 		formData = formLoaded;
 	} catch { };
 
