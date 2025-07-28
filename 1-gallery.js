@@ -6,5 +6,5 @@ import"./assets/modulepreload-polyfill-B5Qt9EMX.js";/* empty css                
   				    alt="${o.description}"
  			   />
   		</a>
-		</li>`}function e(o){return o.map(t).join("")}const n=e(i);a.innerHTML=n;let c=new p(".gallery a",{captions:!0,captionPosition:"bottom",captionDelay:250,captionsData:"alt"});c.on("show.simplelightbox",function(){});
+		</li>`}function e(o){return o.map(t).join("")}const n=e(i);a.innerHTML=n;new p(".gallery a",{captions:!0,captionPosition:"bottom",captionDelay:250,captionsData:"alt"});
 //# sourceMappingURL=1-gallery.js.map
